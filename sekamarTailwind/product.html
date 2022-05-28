@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekamar</title>
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+
+    <!-- icon link -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/product.css">
+
+    <!-- jss -->
+    <script src="/javascript/product.js"></script>
+
+    <!-- icon -->
+    <link rel='icon' href='/src/favicon.ico' />
+</head>
+
+<body class="bg-[#141E36]">
+    <header class="sticky top-0 z-50 grid grid-cols-3 shadow-md p-5 backdrop-blur-md">
+        <div className='relative flex items-center h-10 cursor-pointer my-auto '>
+            <a href="/index.html">
+                <img src=src/Logo.png layout='fill' objectFit='contain' objectPosition='left'
+                    class="w-[10vw] md:w-[10vw]" href=' /index.html' />
+            </a>
+        </div>
+
+        <div class="flex">
+            <div class="dropdown pl-[60vw]">
+                <button onclick="myFunction()" class="dropbtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <div id="myDropdown" class="dropdown-content rounded-lg">
+                    <a href="/contactus.html " class="flex flex-col">
+                        Hubungi kami
+                    </a>
+                    <a href="/product.html">
+                        Pilihan kos
+                    </a>
+                    <a href="/product.html">
+                        Blog
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+</body>
+
+</html>
