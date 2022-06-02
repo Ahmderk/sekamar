@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekamar</title>
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+
+    <!-- icon link -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="/index.css">
+
+    <!-- jss -->
+    <script src="/index.js"></script>
+
+    <!-- icon -->
+    <link rel='icon' href='/src/favicon.ico' />
+</head>
+
+<body class="bg-[#141E36]">
+    <!-- header -->
+    <header class="sticky top-0 z-50 grid grid-cols-3 shadow-md p-5 backdrop-blur-md">
+        <div className='relative flex items-center h-10 cursor-pointer my-auto '>
+            <a href="/index.html">
+                <img src=src/Logo.png layout='fill' objectFit='contain' objectPosition='left'
+                    class="w-[10vw] md:w-[10vw]" href=' /index.html' />
+            </a>
+        </div>
+
+        <div class="flex">
+            <div class="dropdown pl-[60vw]">
+                <button onclick="myFunction()" class="dropbtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <div id="myDropdown" class="dropdown-content rounded-lg">
+                    <a href="/product.html">
+                        Pilihan kos
+                    </a>
+                    <a href="/contactus.html " class="flex flex-col">
+                        Hubungi kami
+                    </a>
+                    <a href="/product.html">
+                        Blog
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- body -->
+    <div class="bg-local" style="background-image: url(/src/banner.png); background-size: cover; background-position-x: center; background-repeat: no-repeat;
+    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+        <div>
+            <div class="text-white pl-32 pt-[10%]">
+                <h1 class="text-[30px] font-bold mb-2">Bersama</h1>
+                <img src="/src/Wordmark.png" alt="" width="400px">
+                <p class="mt-3 text-[20px]">dapatkan Kos-kosan di Bandung dengan mudah</p>
+
+                <div class="flex flex-row mt-5">
+                    <a href="/product.html">
+                        <button
+                            class="border-2 px-10 py-4 mt-4 rounded-xl hover:shadow-md active:bg-[#070D1B] active:transform active:scale-75 active:duration-100 active:ease-out hover:shadow-[#5090FF]">
+                            Cari Sekarang
+                        </button>
+                    </a>
+
+                    <h1 class="px-10 py-4 mt-4 rounded-xl ">
+                        Masih ragu? <a href="/product.html"
+                            class="text-[#5069FF] font-bold hover:underline hover:underline-offset-1 ">Hubungi kami </a>
+                    </h1>
+
+
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+
+            <p class="invisible">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, corrupti deserunt sunt
+                qui doloribus
+                sed, pariatur provident facilis id, amet possimus eveniet unde? Adipisci tempore non veniam ducimus quia
+                nesciunt sed asperiores fugit ab earum eveniet vitae ipsum, facilis laborum officia. Adipisci aut
+                cupiditate aperiam labore? Molestias aliquam sed minus placeat ut reiciendis dicta necessitatibus
+                perferendis, mollitia cupiditate minima non quis animi debitis obcaecati cum dignissimos quaerat
+                praesentium! Sed, id voluptatibus laudantium iure repudiandae numquam quibusdam obcaecati esse
+                voluptatem magnam perferendis, veritatis fugit nam beatae ipsum deserunt fuga eius animi saepe minima
+                sit necessitatibus! Quod consequatur molestiae impedit architecto modi.
+            </p>
+        </div>
+
+    </div>
+    <!-- kelebihan kekurangan -->
+    <h1 class="flex items-center justify-center text-center pt-[150px] text-[64px] font-semibold text-white pb-10 ">
+        Kenapa <span class="ml-2 text-[#5069FF]"> Sekamar?</span>
+    </h1>
+    <div class="flex flex-row px-[100px] items-center justify-center pb-10 ">
+        <div
+            class="flex flex-col text-white items-center justify-center text-center mr-36 hover:bg-[#5069FF] hover:rounded-2xl hover:shadow-xl hover:shadow-[#5090FF] max-w-7xl px-5 hover:scale-110 hover:ease-in-out hover:transform hover:duration-100 max-w-7xl px-5">
+            <img src="https://img.icons8.com/ios-filled/500/ffffff/door-opened.png" class="h-48 w-48 mt-10 mb-3" />
+            <div class="pb-5">
+                <h1 class="text-2xl font-bold pt-3">20 Kamar</h1>
+                <p>Tersebar di sekitar ITB
+                    dengan lokasi yang strategis</p>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col text-white items-center justify-center text-center ml-36 hover:bg-[#5069FF] hover:rounded-2xl hover:shadow-xl hover:shadow-[#5090FF] max-w-7xl px-5 hover:scale-110 hover:ease-in-out hover:transform hover:duration-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-64 w-64" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                    d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+            </svg>
+            <div class="pb-5">
+                <h1 class="text-2xl font-bold pt-3">0000 Orang</h1>
+                <p>Yang sudah menempati kosan barunya</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer class="pt-10">
+        <div class="static bottom-0 z-50 grid grid-cols-3 shadow-md p-5 bg-white px-36">
+            <div class="pr-10">
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+
+                <div class="mt-6">
+                    <h1 class="pb-1 font-semibold text-sm">Gabung Newslater Sekamar, Dapatkan Promo Duluan</h1>
+                    <div class="flex flex-row  border-2 px-2 py-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#5069FF] mr-3" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <form action="">
+                            <input type="email" name="" id="" placeholder="Ikuti Newslater Kami"
+                                class="outline-none text-lg">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+                <ul>lorem</ul>
+            </div>
+
+            <div>
+                <div>
+                    <h1 class="font-semibold text-lg ">Temukan Kami di</h1>
+                    <div class="flex flex-row ">
+                        <a href="www.instagram.com/sekamar_id" class="mr-5">
+                            <img src="https://img.icons8.com/material-outlined/100/5069FF/instagram-new--v1.png"
+                                class="h-10 w-10" />
+                        </a>
+                        <a href="#" class="mr-5">
+                            <img src="https://img.icons8.com/ios-glyphs/100/5069FF/twitter--v1.png" class="h-10 w-10" />
+                        </a>
+                        <a href="#" class="mr-5">
+                            <img src="https://img.icons8.com/ios-glyphs/480/5069FF/tiktok.png" class="h-10 w-10" />
+                        </a>
+                        <a href="#" class="mr-5">
+                            <img src="https://img.icons8.com/material-outlined/100/5069FF/instagram-new--v1.png"
+                                class="h-10 w-10" />
+                        </a>
+                        <a href="#">
+                            <div class="flex">
+                                <h1 class="mr-2">Kerjasama</h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                                    <path
+                                        d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

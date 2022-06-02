@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekamar</title>
+
+    <!-- tailwind script -->
+    <script src="https://cdn.tailwindcss.com/"></script>
+
+    <!-- icon link -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="/product.css">
+
+    <!-- jss -->
+    <script src="/product.js"></script>
+
+    <!-- icon -->
+    <link rel='icon' href='/src/favicon.ico' />
+</head>
+
+<header class="sticky top-0 z-50 grid grid-cols-3 shadow-md p-5 backdrop-blur-md">
+    <div className='relative flex items-center h-10 cursor-pointer my-auto '>
+        <a href="/index.html">
+            <img src=src/Logo.png layout='fill' objectFit='contain' objectPosition='left' class="w-[10vw] md:w-[10vw]"
+                href=' /index.html' />
+        </a>
+    </div>
+
+    <div class="flex">
+        <div class="dropdown pl-[60vw]">
+            <button onclick="myFunction()" class="dropbtn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+
+            <div id="myDropdown" class="dropdown-content rounded-lg">
+                <a href="/contactus.html " class="flex flex-col">
+                    Hubungi kami
+                </a>
+                <a href="/product.html">
+                    Pilihan kos
+                </a>
+                <a href="/product.html">
+                    Blog
+                </a>
+                <a href="#">
+                    <div class="flex">
+                        <h1 class="mr-2">Kerjasama</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path
+                                d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                            <path
+                                d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<body class="bg-[#141E36]">
+    <!-- <h1 class="text-4xl text-white font-bold flex justify-center items-center pt-3">Ini Kosannya</h1> -->
+
+    <div class="flex flex-col pt-5 px-20 -p-10">
+        <div
+            class='hover:shadow-xl hover:shadow-[#5090FF] pb-14 rounded-3xl pl-10 flex py-7 px-2 border-b hover:shadow-lg  pr-4 transition duration-200 ease-out first:border-t max-w-[1500px] bg-white'>
+
+            <!--image slider start-->
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="https://images.unsplash.com/photo-1654041562611-c15e8df579b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1621785588441-fe54efc70364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1638913662415-8c5f79b20656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1648737965772-b3385bfce64f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 4) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+
+            <div class='flex flex-col pl-5 flex-grow'>
+                <div class="flex items-center">
+                    <h4 class='text-xl font-semi-bold'>#001</h4>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/35abff/men-age-group-4.png"
+                            class="h-10 -ml-2" />
+                        <img src="https://img.icons8.com/glyph-neue/512/ffa4b4/standing-woman.png"
+                            class="h-10 -ml-3 text-pink" />
+                        <h4 class="text-xl font-semibold">Campur</h4>
+                    </div>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/undefined/old-woman.png" class="h-10 mx-2" />
+                        <div>
+                            <h4 class="text-xs text-[#ababab]">Pemilik</h4>
+                            <h4 class="text-xl font-semibold pr-2 -mt-2">Tinggal Bersama</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='flex flex-col justify-between border-b-2'>
+                    <h2 class="font-bold text-3xl ">Nama Kos</h2>
+                    <p class='text-sm text-[#ababab] pb-2'>{lokasi}</p>
+                </div>
+                <div class="grid grid-cols-3 grid-rows-3 gap-1 text-sm max-w-[580px] mt-1">
+                    <p>Kamar Mandi Dalam</p>
+                    <p>Parkiran Motor</p>
+                    <p>Ruang Bersama</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+
+
+                </div>
+                <div class="absolute mt-[150px] ml-[530px]">
+                    <p class="text-sm font-light -mb-3">Rp</p>
+                    <div class="flex flex-row">
+                        <p class='text-lg font-semibold lg:text-xl pl-5'>500.000
+                        <p class=' font-extralight mt-4'>
+                            /bulan</p>
+                        </p>
+                    </div>
+                    <div
+                        class="border-2 mt-1 flex items-center justify-center py-2 rounded-full hover:shadow-md active:transform active:scale-75 active:ease-in-out active:duration-100 ">
+                        <a href="#">
+                            <button class="font-bold">
+                                Ayo Liat!
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Kedua -->
+
+        <div
+            class='mt-10 hover:shadow-xl hover:shadow-[#5090FF] pb-14 rounded-3xl pl-10 flex py-7 px-2 border-b hover:shadow-lg  pr-4 transition duration-200 ease-out first:border-t max-w-[1500px] bg-white'>
+
+            <!--image slider start-->
+            <div class="slider1">
+                <div class="slides1">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn1" id="radio11">
+                    <input type="radio" name="radio-btn1" id="radio21">
+                    <input type="radio" name="radio-btn1" id="radio31">
+                    <input type="radio" name="radio-btn1" id="radio41">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide1 first1">
+                        <img src="https://images.unsplash.com/photo-1654032390119-639ffb5e53aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide1">
+                        <img src="https://images.unsplash.com/photo-1648737966661-22e0c69d5aa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide1">
+                        <img src="https://images.unsplash.com/photo-1638913662295-9630035ef770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide1">
+                        <img src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto1">
+                        <div class="auto-btn11"></div>
+                        <div class="auto-btn21"></div>
+                        <div class="auto-btn31"></div>
+                        <div class="auto-btn41"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual1">
+                    <label for="radio11" class="manual-btn1"></label>
+                    <label for="radio21" class="manual-btn1"></label>
+                    <label for="radio31" class="manual-btn1"></label>
+                    <label for="radio41" class="manual-btn1"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+
+            <script type="text/javascript">
+                var counter1 = 1;
+                setInterval(function () {
+                    document.getElementById('radio1' + counter1).checked = true;
+                    counter1++;
+                    if (counter1 > 4) {
+                        counter1 = 1;
+                    }
+                }, 5000);
+            </script>
+
+            <div class='flex flex-col pl-5 flex-grow'>
+                <div class="flex items-center">
+                    <h4 class='text-xl font-semi-bold'>#001</h4>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/35abff/men-age-group-4.png"
+                            class="h-10 -ml-2" />
+                        <img src="https://img.icons8.com/glyph-neue/512/ffa4b4/standing-woman.png"
+                            class="h-10 -ml-3 text-pink" />
+                        <h4 class="text-xl font-semibold">Campur</h4>
+                    </div>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/undefined/old-woman.png" class="h-10 mx-2" />
+                        <div>
+                            <h4 class="text-xs text-[#ababab]">Pemilik</h4>
+                            <h4 class="text-xl font-semibold pr-2 -mt-2">Tinggal Bersama</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='flex flex-col justify-between border-b-2'>
+                    <h2 class="font-bold text-3xl ">Nama Kos</h2>
+                    <p class='text-sm text-[#ababab] pb-2'>{lokasi}</p>
+                </div>
+                <div class="grid grid-cols-3 grid-rows-3 gap-1 text-sm max-w-[580px] mt-1">
+                    <p>Kamar Mandi Dalam</p>
+                    <p>Parkiran Motor</p>
+                    <p>Ruang Bersama</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+
+
+                </div>
+                <div class="absolute mt-[150px] ml-[530px]">
+                    <p class="text-sm font-light -mb-3">Rp</p>
+                    <div class="flex flex-row">
+                        <p class='text-lg font-semibold lg:text-xl pl-5'>500.000
+                        <p class=' font-extralight mt-4'>
+                            /bulan</p>
+                        </p>
+                    </div>
+                    <div
+                        class="border-2 mt-1 flex items-center justify-center py-2 rounded-full hover:shadow-md active:transform active:scale-75 active:ease-in-out active:duration-100 ">
+                        <a href="#">
+                            <button class="font-bold">
+                                Ayo Liat!
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- ketiga -->
+        <div
+            class='mt-10 hover:shadow-xl hover:shadow-[#5090FF] pb-14 rounded-3xl pl-10 flex py-7 px-2 border-b hover:shadow-lg  pr-4 transition duration-200 ease-out first:border-t max-w-[1500px] bg-white'>
+
+            <!--image slider start-->
+            <div class="slider2">
+                <div class="slides2">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn2" id="radio12">
+                    <input type="radio" name="radio-btn2" id="radio22">
+                    <input type="radio" name="radio-btn2" id="radio32">
+                    <input type="radio" name="radio-btn2" id="radio42">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide2 first2">
+                        <img src="https://images.unsplash.com/photo-1654032390119-639ffb5e53aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="https://images.unsplash.com/photo-1648737966661-22e0c69d5aa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="https://images.unsplash.com/photo-1638913662295-9630035ef770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto2">
+                        <div class="auto-btn12"></div>
+                        <div class="auto-btn22"></div>
+                        <div class="auto-btn32"></div>
+                        <div class="auto-btn42"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual2">
+                    <label for="radio12" class="manual-btn2"></label>
+                    <label for="radio22" class="manual-btn2"></label>
+                    <label for="radio32" class="manual-btn2"></label>
+                    <label for="radio42" class="manual-btn2"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+
+            <script type="text/javascript">
+                var counter2 = 1;
+                setInterval(function () {
+                    document.getElementById('radio2' + counter2).checked = true;
+                    counter2++;
+                    if (counter2 > 4) {
+                        counter2 = 1;
+                    }
+                }, 5000);
+            </script>
+
+            <div class='flex flex-col pl-5 flex-grow'>
+                <div class="flex items-center">
+                    <h4 class='text-xl font-semi-bold'>#001</h4>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/35abff/men-age-group-4.png"
+                            class="h-10 -ml-2" />
+                        <img src="https://img.icons8.com/glyph-neue/512/ffa4b4/standing-woman.png"
+                            class="h-10 -ml-3 text-pink" />
+                        <h4 class="text-xl font-semibold">Campur</h4>
+                    </div>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/undefined/old-woman.png" class="h-10 mx-2" />
+                        <div>
+                            <h4 class="text-xs text-[#ababab]">Pemilik</h4>
+                            <h4 class="text-xl font-semibold pr-2 -mt-2">Tinggal Bersama</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='flex flex-col justify-between border-b-2'>
+                    <h2 class="font-bold text-3xl ">Nama Kos</h2>
+                    <p class='text-sm text-[#ababab] pb-2'>{lokasi}</p>
+                </div>
+                <div class="grid grid-cols-3 grid-rows-3 gap-1 text-sm max-w-[580px] mt-1">
+                    <p>Kamar Mandi Dalam</p>
+                    <p>Parkiran Motor</p>
+                    <p>Ruang Bersama</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+
+
+                </div>
+                <div class="absolute mt-[150px] ml-[530px]">
+                    <p class="text-sm font-light -mb-3">Rp</p>
+                    <div class="flex flex-row">
+                        <p class='text-lg font-semibold lg:text-xl pl-5'>500.000
+                        <p class=' font-extralight mt-4'>
+                            /bulan</p>
+                        </p>
+                    </div>
+                    <div
+                        class="border-2 mt-1 flex items-center justify-center py-2 rounded-full hover:shadow-md active:transform active:scale-75 active:ease-in-out active:duration-100 ">
+                        <a href="#">
+                            <button class="font-bold">
+                                Ayo Liat!
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- ke4 -->
+        <div
+            class='mt-10 hover:shadow-xl hover:shadow-[#5090FF] pb-14 rounded-3xl pl-10 flex py-7 px-2 border-b hover:shadow-lg  pr-4 transition duration-200 ease-out first:border-t max-w-[1500px] bg-white'>
+
+            <!--image slider start-->
+            <div class="slider3">
+                <div class="slides3">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn3" id="radio13">
+                    <input type="radio" name="radio-btn3" id="radio23">
+                    <input type="radio" name="radio-btn3" id="radio33">
+                    <input type="radio" name="radio-btn3" id="radio43">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide3 first3">
+                        <img src="https://images.unsplash.com/photo-1654032390119-639ffb5e53aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide3">
+                        <img src="https://images.unsplash.com/photo-1648737966661-22e0c69d5aa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide3">
+                        <img src="https://images.unsplash.com/photo-1638913662295-9630035ef770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <div class="slide3">
+                        <img src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                    </div>
+                    <!--slide images end-->
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto3">
+                        <div class="auto-btn13"></div>
+                        <div class="auto-btn23"></div>
+                        <div class="auto-btn33"></div>
+                        <div class="auto-btn43"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual3">
+                    <label for="radio13" class="manual-btn3"></label>
+                    <label for="radio23" class="manual-btn3"></label>
+                    <label for="radio33" class="manual-btn3"></label>
+                    <label for="radio43" class="manual-btn3"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+
+            <script type="text/javascript">
+                var counter3 = 1;
+                setInterval(function () {
+                    document.getElementById('radio2' + counter3).checked = true;
+                    counter3++;
+                    if (counter3 > 4) {
+                        counter3 = 1;
+                    }
+                }, 5000);
+            </script>
+
+            <div class='flex flex-col pl-5 flex-grow'>
+                <div class="flex items-center">
+                    <h4 class='text-xl font-semi-bold'>#001</h4>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/35abff/men-age-group-4.png"
+                            class="h-10 -ml-2" />
+                        <img src="https://img.icons8.com/glyph-neue/512/ffa4b4/standing-woman.png"
+                            class="h-10 -ml-3 text-pink" />
+                        <h4 class="text-xl font-semibold">Campur</h4>
+                    </div>
+                    <div
+                        class="flex items-center justify-center ml-3 border-2 rounded-full px-2 hover:shadow-md cursor-default">
+                        <img src="https://img.icons8.com/glyph-neue/512/undefined/old-woman.png" class="h-10 mx-2" />
+                        <div>
+                            <h4 class="text-xs text-[#ababab]">Pemilik</h4>
+                            <h4 class="text-xl font-semibold pr-2 -mt-2">Tinggal Bersama</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='flex flex-col justify-between border-b-2'>
+                    <h2 class="font-bold text-3xl ">Nama Kos</h2>
+                    <p class='text-sm text-[#ababab] pb-2'>{lokasi}</p>
+                </div>
+                <div class="grid grid-cols-3 grid-rows-3 gap-1 text-sm max-w-[580px] mt-1">
+                    <p>Kamar Mandi Dalam</p>
+                    <p>Parkiran Motor</p>
+                    <p>Ruang Bersama</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+
+
+                </div>
+                <div class="absolute mt-[150px] ml-[530px]">
+                    <p class="text-sm font-light -mb-3">Rp</p>
+                    <div class="flex flex-row">
+                        <p class='text-lg font-semibold lg:text-xl pl-5'>500.000
+                        <p class=' font-extralight mt-4'>
+                            /bulan</p>
+                        </p>
+                    </div>
+                    <div
+                        class="border-2 mt-1 flex items-center justify-center py-2 rounded-full hover:shadow-md active:transform active:scale-75 active:ease-in-out active:duration-100 ">
+                        <a href="#">
+                            <button class="font-bold">
+                                Ayo Liat!
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+</body>
+
+
+</html>
