@@ -79,7 +79,7 @@
   /* slide1 */
   .slider{
     width: 300px;
-    height: 200px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -101,7 +101,7 @@
   
   .slide img{
     width: 300px;
-    height: 200px;
+    height: 400px;
   }
   
   /*css for manual slide navigation*/
@@ -109,7 +109,7 @@
   .navigation-manual{
     position: absolute;
     width: 300px;
-    margin-top: -290px;
+    margin-top: -75px;
     display: flex;
     justify-content: center;
   }
@@ -138,7 +138,7 @@
     margin-left: -20%;
   }
   
-  #radio3:checked ~ .first{
+  #radio31:checked ~ .first{
     margin-left: -40%;
   }
   
@@ -153,7 +153,7 @@
     display: flex;
     width: 300px;
     justify-content: center;
-    margin-top: 210px;
+    margin-top: -75px;
   }
   
   .navigation-auto div{
@@ -183,10 +183,10 @@
     background: #40D3DC;
   }
 
-  /* slide 2 */
+  /* slider1 */
   .slider1{
     width: 300px;
-    height: 200px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -208,7 +208,7 @@
   
   .slide1 img{
     width: 300px;
-    height: 200px;
+    height: 400px;
   }
   
   /*css for manual slide navigation*/
@@ -216,7 +216,7 @@
   .navigation-manual1{
     position: absolute;
     width: 300px;
-    margin-top: -290px;
+    margin-top: -75px;
     display: flex;
     justify-content: center;
   }
@@ -245,7 +245,7 @@
     margin-left: -20%;
   }
   
-  #radio31:checked ~ .first1{
+  #radio311:checked ~ .first1{
     margin-left: -40%;
   }
   
@@ -260,7 +260,7 @@
     display: flex;
     width: 300px;
     justify-content: center;
-    margin-top: 210px;
+    margin-top: -75px;
   }
   
   .navigation-auto1 div{
@@ -289,10 +289,11 @@
   #radio41:checked ~ .navigation-auto1 .auto-btn41{
     background: #40D3DC;
   }
-  /* slide2 */
+  
+  /* slider2 */
   .slider2{
     width: 300px;
-    height: 200px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -314,7 +315,7 @@
   
   .slide2 img{
     width: 300px;
-    height: 200px;
+    height: 400px;
   }
   
   /*css for manual slide navigation*/
@@ -322,7 +323,7 @@
   .navigation-manual2{
     position: absolute;
     width: 300px;
-    margin-top: -290px;
+    margin-top: -75px;
     display: flex;
     justify-content: center;
   }
@@ -351,7 +352,7 @@
     margin-left: -20%;
   }
   
-  #radio32:checked ~ .first2{
+  #radio312:checked ~ .first2{
     margin-left: -40%;
   }
   
@@ -366,7 +367,7 @@
     display: flex;
     width: 300px;
     justify-content: center;
-    margin-top: 210px;
+    margin-top: -75px;
   }
   
   .navigation-auto2 div{
@@ -396,10 +397,10 @@
     background: #40D3DC;
   }
 
-  /* slide3 */
+  /* slider3 */
   .slider3{
     width: 300px;
-    height: 200px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -421,7 +422,7 @@
   
   .slide3 img{
     width: 300px;
-    height: 200px;
+    height: 400px;
   }
   
   /*css for manual slide navigation*/
@@ -429,7 +430,7 @@
   .navigation-manual3{
     position: absolute;
     width: 300px;
-    margin-top: -290px;
+    margin-top: -75px;
     display: flex;
     justify-content: center;
   }
@@ -458,7 +459,7 @@
     margin-left: -20%;
   }
   
-  #radio33:checked ~ .first3{
+  #radio313:checked ~ .first3{
     margin-left: -40%;
   }
   
@@ -473,7 +474,7 @@
     display: flex;
     width: 300px;
     justify-content: center;
-    margin-top: 210px;
+    margin-top: -75px;
   }
   
   .navigation-auto3 div{
